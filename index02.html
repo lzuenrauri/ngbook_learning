@@ -5,11 +5,14 @@
 	<title>Document</title>
 </head>
 <body>
-	<div ng-controller="MyController">
-		<input ng-model="expr" type="text" placeholder="expression?">
-		<h2>parseValue</h2>
-	</div>
-</body>
+
+  <div ng-controller="MyController">
+    <input ng-model="expr"
+            type="text"
+            placeholder="Enter an expression" />
+    <div>{{ parsedExpr }}</div>
+  </div>
+  </body>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.2/angular.js"></script>
 <script type="text/javascript" src="Controller2.js">
 </html>
